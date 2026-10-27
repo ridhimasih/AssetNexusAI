@@ -1,2 +1,18 @@
+# Python cache files
+__pycache__/
+*.py[cod]
 
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# SQLite database
 assetnexus.db
+*.db
+
+# Test and editor files
+.pytest_cache/
+.vscode/
