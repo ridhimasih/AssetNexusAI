@@ -1,34 +1,21 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-.env
-
-# Python / backend
-.venv/
-venv/
+# Python cache files
 __pycache__/
-*.pyc
-*.db
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables and secrets
 .env
+
+# SQLite databases
+assetnexus.db
+*.db
+
+# Test and editor files
 .pytest_cache/
+.vscode/
+
+# Preserve example environment configuration
+!.env.example
