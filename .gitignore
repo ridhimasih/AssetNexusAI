@@ -6,13 +6,16 @@ __pycache__/
 venv/
 .venv/
 
-# Environment variables
+# Environment variables and secrets
 .env
 
-# SQLite database
+# SQLite databases
 assetnexus.db
 *.db
 
 # Test and editor files
 .pytest_cache/
 .vscode/
+
+# Preserve example environment configuration
+!.env.example
